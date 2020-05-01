@@ -1,0 +1,37 @@
+{
+    "name": "pg-node",
+    "version": "1.0.3",
+    "description": "The pg-node library to integrate in your nodejs applications.",
+    "author": "Kundan Kumar <\"kundandeveloper@gmail.com\"> (\"https://twitter.com/kundancool\")",
+    "homepage": "https://github.com/PG/pg-node#readme",
+    "license": "ISC",
+    "keywords": [
+        "pg",
+        "bpay",
+        "payment",
+        "banking",
+        "credit",
+        "card",
+        "debit",
+        "upi",
+        "rupay"
+    ],
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/PG/pg-node.git"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "bugs": {
+        "url": "https://github.com/PG/pg-node/issues"
+    },
+    "dependencies": {
+        "js-sha256": "^0.9.0",
+        "request": "^2.88.0"
+    },
+    "bundleDependencies": [
+        "js-sha256"
+    ]
+}
